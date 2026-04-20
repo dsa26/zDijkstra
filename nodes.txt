@@ -1,0 +1,22 @@
+San Francisco;26;170
+Los Angeles;58;241
+Orlando;506;350
+Washington, D.C.;536;176
+New York;557;131
+Dallas;310;296
+Portland;43;85
+Minneapolis;349;100
+Oklahoma City;298;244
+Raleigh;532;227
+New Orleans;384;327
+Denver;224;183
+Salt Lake City;148;152
+Seattle;64;31
+Chicago;415;152
+Atlanta;462;273
+Boston;583;111
+Phoenix;138;262
+Las Vegas;104;216
+Kansas City;334;193
+Bismarck;279;63
+Augusta;593;65
