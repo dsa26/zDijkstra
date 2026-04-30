@@ -32,9 +32,10 @@ public class PriorityQueue {
         Node node = temp[0];
         int i = 0;
         while (smaller(temp, i) != -1 && node.distance > temp[smaller(temp, i)].distance) {
-            temp[i] = temp[smaller(temp, i)];
-            temp[smaller(temp, i)] = node;
-            i = smaller(temp, i);
+            int sml = smaller(temp, i);
+            temp[i] = temp[sml];
+            temp[sml] = node;
+            i = sml;
         }
         this.heap = temp;
         return ret;

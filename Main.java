@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         PathFinder path = new PathFinder("./nodes.txt", "./edges.txt");
-        path.findPath("San Francisco", "Boston");
+        path.findPath("San Francisco", "Las Vegas");
         // PriorityQueue queue = new PriorityQueue();
         // queue.enqueue(new Node("San Francisco", 0, null));
         // queue.enqueue(new Node("Las Vegas", 380, null));
